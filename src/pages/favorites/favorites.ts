@@ -14,7 +14,7 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'favorites.html',
 })
 export class FavoritesPage {
-
+  favoritesPage = FavoritesPage;
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
