@@ -10,6 +10,7 @@ import {LibraryPage} from "../pages/library/library";
 import {QuotePage} from "../pages/quote/quote";
 import {SettingsPage} from "../pages/settings/settings";
 import {TabsPage} from "../pages/tabs/tabs";
+import {QuotesPage} from "../pages/quotes/quotes";
 
 
 @NgModule({
@@ -18,7 +19,7 @@ import {TabsPage} from "../pages/tabs/tabs";
     FavoritesPage,
     LibraryPage,
     QuotePage,
-    QuotePage,
+    QuotesPage,
     SettingsPage,
     TabsPage
   ],
@@ -32,7 +33,7 @@ import {TabsPage} from "../pages/tabs/tabs";
     FavoritesPage,
     LibraryPage,
     QuotePage,
-    QuotePage,
+    QuotesPage,
     SettingsPage,
     TabsPage
   ],

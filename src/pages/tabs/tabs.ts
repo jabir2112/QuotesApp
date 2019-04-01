@@ -1,8 +1,8 @@
-import {Component} from "@angular/core";
+import {Component} from '@angular/core';
 import {FavoritesPage} from "../favorites/favorites";
 import {LibraryPage} from "../library/library";
 
-Component({
+@Component({
   selector: 'page-tabs',
   template: `
     <ion-tabs>
