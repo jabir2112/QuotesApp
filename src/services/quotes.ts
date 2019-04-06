@@ -7,8 +7,7 @@ addQuoteToFavorites(quote: Quote){
     console.log(this.favoriteQuotes);
 }
 
-
-removeQuoteFromFavorite(quote: Quote){
+removeQuoteFromFavorites(quote: Quote){
 
     const position = this.favoriteQuotes.findIndex((quoteEl: Quote) => {
         return quoteEl.id == quote.id;
@@ -20,4 +19,12 @@ removeQuoteFromFavorite(quote: Quote){
 getFavoriteQuotes(){
 return this.favoriteQuotes.slice();
 }
+
+isQuoteFavorite(quote: Quote){
+
+   return this.favoriteQuotes.find((quoteEl: Quote) => {
+       return quoteEl.id == quote.id;
+    });
+}
+
 }
